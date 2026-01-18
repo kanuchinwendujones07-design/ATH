@@ -1,0 +1,166 @@
+
+body{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow-x:hidden;
+    background-color: rgba(250, 235, 215, 0.937);
+    
+}
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    color  :blueviolet;
+    font-size: 20px;
+    
+}
+
+span{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 50px;
+}
+nav, ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 30px;
+    
+    
+}
+li, a{
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+   
+    
+}
+li:hover{
+    color: blueviolet;
+}
+ .linked{
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+.hero{
+    
+    width: 100%;
+    padding: 70px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.hero_text h1 {
+    font-size: 70px;
+    text-transform: capitalize;
+    
+
+}
+.hero_text h3 {
+   color: blueviolet;
+   font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+.hero_text{
+    width: 50%;
+}
+.hero_img{
+    width: 70%;
+    background-image: url(/FIRST_PROJECT/pictures/bg-peoples.png);
+}
+.btn{
+    color: black;
+    background-color: blueviolet;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+.table{
+   width: 1000px;
+   background-color: rgba(137, 43, 226, 0.19);
+   height: 100%;
+   border-radius: 15px;
+   justify-content: center;
+   padding: 60px;
+   margin: 90px;
+   font-weight: bold;
+   font-size: xx-small;
+   color: rgba(0,0,0);
+   
+}
+  
+.first{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.ic{
+    font-size: 80px;
+    color: blueviolet;
+}
+.row{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 30px;
+    font-size: large;
+    
+
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding:30px; 
+}
+.boss{
+    background-color:antiquewhite;  
+    width: 1100px;  
+    height: 100%;  
+    margin: 90px; 
+        
+}
+.superman{   
+    display: flex;
+    justify-content: space-around;
+   gap: 50px;
+   
+
+}
+
+
+    
+
+
